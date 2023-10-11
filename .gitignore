@@ -18,3 +18,4 @@ api/vendor/symfony/polyfill-mbstring/
 api/vendor/symfony/polyfill-php80/
 api/vendor/symfony/polyfill-php83/
 api/vendor/symfony/routing/
+api/src/Conexao.php

@@ -7,11 +7,11 @@ use PDOException;
 
 class Conexao 
 {
-    private string $host        = "****";
-    private string $user        = "****";
-    private string $pass        = "****";
-    private string $dbname      = "****";
-    private int|string $port    = "****";
+    private string $host        = "localhost";
+    private string $user        = "chat_js";
+    private string $pass        = "chatchat";
+    private string $dbname      = "db_chatjs";
+    private int|string $port    = "3306";
     private object $connect;
 
     public function getConnection(): object
