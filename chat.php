@@ -43,7 +43,7 @@ ob_start();
             let nome = document.getElementById("nome_usuario").textContent;
             
             let dados = {
-                mensagem: `${nome}: ${msg.value}<br>`
+                mensagem: `${nome}: ${msg.value}`
             }
             
             ws.send(JSON.stringify(dados));
